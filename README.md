@@ -1,2 +1,4 @@
 # TicTacToe
-Play TicTacToe in the console
+Play TicTacToe on the console
+
+Just include TicTacToe.h in your code and call PlayGame()
