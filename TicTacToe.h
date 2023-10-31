@@ -8,6 +8,8 @@
 */
 
 #include <iostream>
+#include <limits>
+#include <conio.h>
 
 using namespace std;
 
@@ -209,8 +211,12 @@ void NumPadInputHandler()
         break;
     default:
         cout << "Invalid Input." << endl;
+        // clear the input buffer
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
         break;
     }
+    cout << endl;
 }
 
 char PlayGame()
