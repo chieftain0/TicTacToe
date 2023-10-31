@@ -103,7 +103,7 @@ void InitGame()
 
 void NumPadInputHandler()
 {
-    cout << "Enter your move on the NumPad: ";
+    cout << "Choose your cell on the NumPad: ";
     int NumPadInput;
     cin >> NumPadInput;
     char player;
