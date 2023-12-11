@@ -10,7 +10,6 @@
 #include <iostream>
 #include <limits>
 #include <conio.h>
-
 using namespace std;
 
 char GameBoard[3][3];
